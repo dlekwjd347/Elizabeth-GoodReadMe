@@ -130,9 +130,6 @@ inquirer.prompt([
     fs.writeFile('index.md', readmeData, 'utf8', err => {
     if(err) return console.log("error");
     
-
-
-
 });
 });
 
