@@ -1,0 +1,22 @@
+{
+  "name": "elizabeth-goodreadme",
+  "version": "1.0.0",
+  "description": "generate a good readme file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlekwjd347/Elizabeth-GoodReadMe.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Elizabeth Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlekwjd347/Elizabeth-GoodReadMe/issues"
+  },
+  "homepage": "https://github.com/dlekwjd347/Elizabeth-GoodReadMe#readme"
+}
