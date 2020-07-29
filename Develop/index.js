@@ -8,8 +8,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // function is adding data to readme
-function writeReadme(fileName, data) {
-    fs.writeFile(fileName, JSON.stringify(data), function (err) {
+function writeReadme(fileName, readmeData) {
+    fs.writeFile("index.md", readmeData, function (err) {
         if (err) {
            return console.log(err)
         }
@@ -138,12 +138,14 @@ inquirer.prompt([
     // function to write README file
     let readmeData = "";
     readmeData += "# Title"
-    readmeData += writeReadme("index.md", response.title); // data under heading
     readmeData += "\n";
-    fs.writeFile('index.md', readmeData, 'utf8', err => {
-        if(err) return console.log("error");
+    readmeData += response.title; // data under heading
+    //  fs.writeFile('index.md', readmeData, 'utf8', err => {
+    //     if(err) return console.log("error");
         
-    });
+    // });
+
+    writeReadme(readmeData);
 });
 
 
