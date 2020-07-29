@@ -9,7 +9,7 @@ const fs = require('fs');
 
 // function is adding data to readme
 function writeReadme(fileName, readmeData) {
-    fs.writeFile("index.md", readmeData, function (err) {
+    fs.writeFile(fileName, readmeData, function (err) {
         if (err) {
            return console.log(err)
         }
@@ -140,12 +140,9 @@ inquirer.prompt([
     readmeData += "# Title"
     readmeData += "\n";
     readmeData += response.title; // data under heading
-    //  fs.writeFile('index.md', readmeData, 'utf8', err => {
-    //     if(err) return console.log("error");
-        
-    // });
 
-    writeReadme(readmeData);
+
+    writeReadme("index.md", readmeData);
 });
 
 
