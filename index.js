@@ -109,9 +109,12 @@ validate: email => {
       alert("You have entered an invalid email address!")
       return false;
   }
+}, 
+//Badge
+{type: 'input',
+message: "What is the badge for this license?",
+name: 'badge',
 }
-
-
 ];
 
 // function to write README file

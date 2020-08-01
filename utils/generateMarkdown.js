@@ -41,6 +41,11 @@ ${data.usage}
 ## License
 ![GitHub](https://img.shields.io/github/license/${data.username}/${data.repo})
 
+![Badge](${data.badge})
+
+https://github.com/${data.username}
+
+
 ## Contributors
 ${data.contributor}
 
