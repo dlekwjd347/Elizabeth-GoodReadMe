@@ -75,20 +75,7 @@ validate: username => {
         }
     }
 },
-//License
-    {type: 'input',
-    message: "What is the License?",
-    name: 'license',
-    validate: license => {
-         if(license.length < 3){
-             return "License required.";
-    }
-    else{
-        // all validation checks passed
-        return true;
-    }
-}
-},
+
 //Contributing
     {type: 'input',
     message: "Who are the contributors (github usernames)?",
@@ -114,8 +101,17 @@ validate: username => {
 {type: 'input',
 message: "What is your email address?",
 name: 'email',
-
+validate: email => {
+    if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
+    {
+      return true;
+    }
+      alert("You have entered an invalid email address!")
+      return false;
+  }
 }
+
+
 ];
 
 // function to write README file

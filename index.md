@@ -27,7 +27,7 @@ qwertyuiop
 qwertyuiop
 
 ## License
-![GitHub](https://img.shields.io/github/license/dlekwjd347/undefined)
+![GitHub](https://img.shields.io/github/license/dlekwjd347/Elizabeth-GoodReadMe)
 
 ## Contributors
 qwertyuiop
@@ -42,3 +42,6 @@ Questions can be sent to: e.lee7091@gmail.com
 
 
 
+
+
+# Elizabeth-GoodReadMe
