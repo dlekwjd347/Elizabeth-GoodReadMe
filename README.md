@@ -19,4 +19,7 @@ SO THAT can quickly create a professional README for a new project
 ```
 
 
-Because this is a command-line application that won’t be deployed, please watch the Screencastify video included.
+Because this is a command-line application that won’t be deployed, please watch the Screencastify video included below.
+
+
+[![Demo Video](https://img.drive.google.com/file/d/1bsKOUg9p-TzxivlZvUnCe1zRT8lfwity/view.jpg)](https://drive.google.com/file/d/1bsKOUg9p-TzxivlZvUnCe1zRT8lfwity/view)

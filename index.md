@@ -15,33 +15,33 @@
 Elizabeth-GoodReadMe
 
 ## Github User
-dlekwjd347
+Dlekwjd347
 
 ## Description
-qwertyuiop
+a ReadMe generator with information about the app, what it's used for, how to use it, how to install install it, and how to report issues or questions
 
 ## Installation Steps
-qwertyuiop
+git clone, npm init, npm install module 
 
 ## Usage Description
-qwertyuiop
+to create a readme based on the criteria given
 
 ## License
-![GitHub](https://img.shields.io/github/license/dlekwjd347/Elizabeth-GoodReadMe)
+![GitHub](https://img.shields.io/github/license/Dlekwjd347/Elizabeth-GoodReadMe)
 
 ![Badge](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSa3Fe-i2tjmzHKfHzrdmrEn4YXK0fWeu5-Vw&usqp=CAU)
 
-https://github.com/dlekwjd347
+https://github.com/Dlekwjd347
 
 
 ## Contributors
-qwertyuiop
+none
 
 ## Tests
-q
+none
 
 ## Questions
-Questions can be sent to: e.lee7091@gmail.com
+Questions/issues can be sent to: e.lee7091@gmail.com
 
 
 
