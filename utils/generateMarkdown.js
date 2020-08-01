@@ -53,7 +53,7 @@ ${data.contributor}
 ${data.test}
 
 ## Questions
-Questions can be sent to: ${data.email}
+Questions/issues can be sent to: ${data.email}
 
 
 
