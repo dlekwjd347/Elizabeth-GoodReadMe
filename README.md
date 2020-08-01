@@ -19,11 +19,11 @@ SO THAT can quickly create a professional README for a new project
 ```
 
 
-Because this is a command-line application that won’t be deployed, please watch the Screencastify video included below.
+Because this is a command-line application that won’t be deployed, please watch the Screencastify video link included below.
 
 
-![Demo Image](assets\readme1.JPG)
-![Demo Image](assets\readme2.JPG)
+![Demo Image](\assets\readme1.JPG)
+![Demo Image](\assets\readme1.JPG)
 
 Link: 
 https://drive.google.com/file/d/1bsKOUg9p-TzxivlZvUnCe1zRT8lfwity/view
