@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown.js");
 const fs = require('fs');
+const path = require("path");
 
 const questions = [
 
@@ -20,11 +21,11 @@ validate: username => {
 },
 //title 
     {type: 'input',
-    message: "What is the Title of your Project?",
-    name: 'title',
-    validate: title => {
-        if(title.length < 5){
-            return "Title is too short.";
+    message: "What is the name of the Github Repo for this project?",
+    name: 'repo',
+    validate: repo => {
+        if(repo.length < 5){
+            return "Repo name is required or is too short.";
         }
         else{
             // all validation checks passed
@@ -117,6 +118,7 @@ name: 'email',
 }
 ];
 
+// function to write README file
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
@@ -128,7 +130,18 @@ function init() {
         console.log("Readme is being created..");
         writeToFile("index.md", generateMarkdown({...response}))
 
+        fs.appendFileSync("index.md", ("# " + response.repo)+ '\n', function(err) { 
+
+            if (err) { 
+            console.log(err)
+            }
+            else {
+            console.log("Success")
+            }
+
     });
+});
+    
 } 
 
 // function call to initialize program

@@ -10,21 +10,21 @@ function createLicense(license) {
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# Readme
 
 # Table of Contents:
-## Title
-## Github User
-## Description
-## Installation Steps
-## Usage Description
-## License
-## Contributors
-## Tests
-## Questions
+1. ## Github Repo
+2. ## Github User
+3. ## Description
+4. ## Installation Steps
+5. ## Usage Description
+6. ## License
+7. ## Contributors
+8. ## Tests
+9. ## Questions
 
-## Title
-${data.title}
+## Github Repo
+${data.repo}
 
 ## Github User
 ${data.username}
@@ -39,7 +39,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-![GitHub](https://img.shields.io/github/license/${data.username}/${data.title})
+![GitHub](https://img.shields.io/github/license/${data.username}/${data.repo})
 
 ## Contributors
 ${data.contributor}
