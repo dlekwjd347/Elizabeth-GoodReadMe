@@ -21,10 +21,10 @@ SO THAT can quickly create a professional README for a new project
 
 Because this is a command-line application that won’t be deployed, please watch the Screencastify video link included below.
 
+Link: 
+https://drive.google.com/file/d/1bsKOUg9p-TzxivlZvUnCe1zRT8lfwity/view
 
 ![Demo Image](https://github.com/dlekwjd347/Elizabeth-GoodReadMe/blob/master/assets/readme1.JPG)
 
 ![Demo Image](https://github.com/dlekwjd347/Elizabeth-GoodReadMe/blob/master/assets/readme2.JPG)
 
-Link: 
-https://drive.google.com/file/d/1bsKOUg9p-TzxivlZvUnCe1zRT8lfwity/view
